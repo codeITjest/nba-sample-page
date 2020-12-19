@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>GALLERY</title>
+</head>
+
+<body>
+
+    <!--Header-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">NBA fanatics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+        aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" style="padding-left: 20px">
+            <a href="index.html">HOME</a>
+		</li>		
+        <li class="nav-item" style="padding-left: 20px">
+            <a href="shop.html">SHOP</a>
+		  </li>
+		  <li class="nav-item" style="padding-left: 20px">
+           <a href="gallery.html">GALLERY</a>
+		  </li>
+		  <li class="nav-item" style="padding-left: 20px">
+            <a href="contact us.html">CONTACT US</a>
+		  </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to NBA</h1>
+        <p class="lead">NBA HISTORY.</p>
+        <hr class="my-4">
+        <p>The NBA began life as the Basketball Association of America in 1946 and played under that monkier for 3 years before, in 1949, merging with the National Basketball League and changing names to the NBA. The BAA started out with 11 teams in 1946 but lost four of them before the start of the next season. Despite the loss of four teams the BAA was having a lot of success against its rival the NBL and was able to entice four of the NBL's premire franchises to join the BAA in 1948.
+When the two leagues merged in 1949 it brought the total number of teams to 17 but the new league would quickly start losing teams. After just six years the number of teams had dropped to just 8. Financial troubles plagued the league from the start and this was especially true for the NBL teams that joined during the merger due to them being in smaller markets. The owner of the Fort Wayne Pistons, a former NBL team, named Frank Zollner was key in keeping the NBA financially afloat during this time.
+
+The NBA continued with 8 teams from 1955 until 1961 when the Chicago Packers joined the league. The Packers, now the Washington Wizards, are not considered to be the first expansion team, that distriction goes to the Chicago Bulls because the Bulls, who joined in 1966, had an actual expansion draft. From 1966 until 2004 the league seen an expansion boom with a total of 21 teams joining the league.</p>
+      </div>
+
+
+  <!--==========================
+      Booklist Section
+    ============================-->
+  <section id="book">
+    <div class="container wow fadeInUp">
+      <div class="section-header">
+        <h3 class="section-title">Team list</h3>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque</p>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-12">
+          <ul id="book-flters">
+            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+            <li data-filter=".filter-app">Western Conference</li>
+            <li data-filter=".filter-card">Eastern Conference</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" id="book-wrapper">
+        
+        <div class="col-lg-6 col-md-6 book-item filter-app">
+          <a href="">
+            <img src="img/bookList/western.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>Western Conference</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-md-6 book-item filter-card">
+          <a href="">
+            <img src="img/bookList/eastern.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>Eastern Conference</h4>
+            </div>
+          </a>
+        </div>
+
+        
+
+  <!-- Footer -->
+
+ <!-- Footer -->
+
+  <footer id="sticky-footer" class="py-4 bg-primary text-white-50">
+    <div class="container text-center">
+      <small> &copy; 2020</small>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="filter.js"></script>
+</body>
+
+</html>
